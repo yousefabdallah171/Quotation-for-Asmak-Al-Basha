@@ -1,0 +1,109 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f8ff; /* خلفية زرقاء فاتحة */
+  margin: 0;
+  padding: 0;
+  background-image: url(cover.jpg);
+  background-size: contain;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: #ffffff;
+  /*خلفيةبيضاء*/
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 150px; /* حجم اللوجو */
+}
+
+.quotation h1 {
+  text-align: center;
+  color: #0056b3; /* لون أزرق */
+}
+
+.quotation p,
+.quotation h2,
+.services ul,
+.pricing table {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.info-row {
+  display: flex; /* لعرض العناصر بجانب بعضها */
+  justify-content: space-between; /* توزيع المسافات بين العناصر */
+  margin: 10px 0; /* مسافة بين الصفوف */
+}
+
+.info-row p {
+  flex: 1; /* جعل كل فقرة تأخذ مساحة متساوية */
+  margin: 0; /* إزالة المسافات الخارجية */
+  padding: 5px; /* إضافة بعض الحشو الداخلي */
+  background-color: #e6f2ff; /* لون خلفية خفيف */
+  border-radius: 5px; /* زوايا دائرية للفقرات */
+  text-align: center; /* جعل النص في المنتصف */
+  margin-right: 10px; /* مسافة بين الفقرات */
+}
+
+.info-row p:last-child {
+  margin-right: 0; /* إزالة المسافة اليمنى من الفقرة الأخيرة */
+}
+
+.services ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services ul li {
+  background-color: #e6f2ff; /* لون خلفية أزرق فاتح */
+  padding: 10px;
+  border-left: 4px solid #0056b3; /* خط أزرق على اليسار */
+  margin-bottom: 10px;
+}
+
+.pricing table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.pricing th,
+.pricing td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.pricing th {
+  background-color: #0056b3; /* خلفية زرقاء */
+  color: #fff; /* لون النص أبيض */
+}
+
+.pricing td {
+  background-color: #f9f9f9; /* خلفية خفيفة */
+}
+
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  color: #333;
+}
+
+.footer p {
+  margin: 5px 0;
+}
